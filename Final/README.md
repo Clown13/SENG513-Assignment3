@@ -9,7 +9,5 @@ Steps:
 4. open Browser: "http://localhost:3000"
 
 
-* Only works with /nickcolor string. Does not take in hex value.
-
 GitHub Repository
 https://github.com/Clown13/SENG513-Assignment3

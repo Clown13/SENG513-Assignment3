@@ -99,8 +99,8 @@ This is for sending messages. It checks for /nick and /nickcolor otherwise just 
  
         if(data.includes("/nickcolor ")){   
            color = data.replace('/nickcolor ','');
-           colors[users.indexOf(socket.username)] = color; 
-           data = "new Color for Nickname: " + color;
+           colors[users.indexOf(socket.username)] = '#'+color; 
+           data = "new Color for Nickname ";
 
         }
 /*
