@@ -1,0 +1,79 @@
+
+
+* { 
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px Helvetica, Arial;
+}
+
+#namesection { 
+	width: 100%; 
+	height: 0px
+	top: 0; 
+	padding: 3px; 
+	top: 0; 
+	border: 1px solid #eee;
+}
+
+#namesection h3 {
+	float: right ;
+	padding-right: 33%;
+	position:relative;
+}
+
+#msgBox{
+    position: fixed;
+    width: 60%;
+	max-height: calc(100% - 62px);
+    float: left; 
+    overflow-x: hidden;
+    overflow-y: auto;
+	bottom: 40px; 
+    border: 1px solid #202020;
+    background-color: #DCDCDC;
+}
+
+#right{
+	float: right;
+    width: 40%;
+    height: 800px; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+}
+
+#messageForm { 
+	height: 40px;
+	background: #eee; 
+	padding: 2px; 
+	position: fixed; 
+	bottom: 0; 
+	width: 100%; 
+}
+
+#messageForm input { 
+	padding: 8px; 
+	width: 85%; 
+}
+
+#messageForm input { 
+	padding: 8px; 
+	width: 100%; 
+}
+
+
+#messages { 
+    list-style-type: none;
+    padding: 0px 0px 5px 0px;
+}
+
+#messages li { 
+	padding: 5px 10px; 
+}
+
+
+
